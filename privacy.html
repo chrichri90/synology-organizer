@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politique de confidentialité — Synology Organizer</title>
+  <meta name="description" content="Politique de confidentialité de l'application Synology Organizer.">
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 860px; margin: 0 auto; padding: 32px 20px 64px; line-height: 1.65; }
+    h1 { line-height: 1.2; margin-bottom: .25rem; }
+    h2 { margin-top: 2rem; }
+    .meta { opacity: .72; margin-top: 0; }
+    .notice { border: 1px solid currentColor; border-radius: 12px; padding: 14px 16px; margin: 24px 0; }
+    code { overflow-wrap: anywhere; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Politique de confidentialité — Synology Organizer</h1>
+    <p class="meta">Version 2.4.0 — 24 août 2026</p>
+
+    <div class="notice">
+      <strong>Application indépendante.</strong> Synology Organizer est une application indépendante et non officielle. Elle n’est ni développée, ni approuvée, ni affiliée à Synology Inc.
+    </div>
+
+    <h2>Données traitées</h2>
+    <p>L’application traite l’adresse du serveur Synology, le nom d’utilisateur, les paramètres de synchronisation, ainsi que les calendriers, événements et contacts nécessaires aux fonctions CalDAV/CardDAV activées. Le mot de passe Synology et l’identifiant d’appareil de confiance DSM sont stockés localement sous forme chiffrée.</p>
+    <p>Si la météo est activée, le NPA/la localité configurés et, lorsque la météo d’un rendez-vous est demandée, son champ de localisation peuvent être transmis aux services Open-Meteo pour le géocodage et les prévisions.</p>
+
+    <h2>Protection et transmission</h2>
+    <p>Les connexions au serveur Synology utilisent HTTPS/TLS. Les connexions HTTP non chiffrées ne sont pas autorisées. Le mot de passe et l’identifiant DSM sont chiffrés en AES-GCM avec une clé gérée par Android Keystore.</p>
+    <p>Les contacts et événements sont mis en cache localement afin de permettre l’affichage et la synchronisation. Les sauvegardes Android automatiques et le transfert des données privées de l’application sont désactivés.</p>
+    <p>Aucun serveur exploité par le développeur ne reçoit les contacts, calendriers ou identifiants Synology.</p>
+
+    <h2>Contacts Android</h2>
+    <p>Si l’option « Contacts visibles dans Android » est activée, l’application demande les autorisations nécessaires pour publier et synchroniser les contacts rattachés au compte Android Synology Organizer. Les comptes Téléphone, Google ou Samsung ne sont pas utilisés comme source de cette synchronisation.</p>
+
+    <h2>Météo</h2>
+    <p>La météo est facultative et utilise les API HTTPS d’Open-Meteo. La désactivation de la météo empêche ces requêtes.</p>
+
+    <h2>Journal de diagnostic</h2>
+    <p>Le mode debug est désactivé par défaut. Lorsqu’il est activé, le journal reste local sur l’appareil. La fonction de copie destinée au support masque le nom d’utilisateur, l’hôte du serveur et les adresses e-mail détectées.</p>
+
+    <h2>Conservation et suppression</h2>
+    <p>La suppression d’un compte dans l’application efface ses réglages et caches locaux associés. La désinstallation de l’application supprime ses données locales selon le fonctionnement d’Android.</p>
+
+    <h2>Contact développeur</h2>
+    <p>Pour toute question concernant cette politique de confidentialité ou le traitement des données, contactez :</p>
+    <p><strong>À REMPLACER AVANT PUBLICATION :</strong> <a href="mailto:VOTRE_ADRESSE_EMAIL">VOTRE_ADRESSE_EMAIL</a></p>
+  </main>
+</body>
+</html>
